@@ -1,20 +1,38 @@
 //example 5 - 
 
-
+//include <cs50.h>
 #include <stdio.h>
 
-//for loop - best best option: 
+//e - creating a meow function and plugging it in 
+
+void meow(void)
 
 int main(void)
 {
     for (int i = 0; i < 3; i++)
     {
-        printf("meow\n");
+        meow();
         i++;
     }
 }
 
-//best while-loop option? better convention to increment than decrement? 
+void meow(void)
+{
+    print("meow\n")
+}
+
+//d for loop - best best option: 
+
+// int main(void)
+// {
+//     for (int i = 0; i < 3; i++)
+//     {
+//         printf("meow\n");
+//         i++;
+//     }
+// }
+
+//c - best while loop option? better convention to increment than decrement? 
 
 // int main(void)
 // {
@@ -26,7 +44,7 @@ int main(void)
 //     }
 // }
 
-//better option: 
+//b - slightly better option, while loop, but still wordy: 
 
 // int main(void)
 // {
@@ -38,7 +56,7 @@ int main(void)
 //     }
 // }
 
-
+// a - simplest but most wordy way 
 // int main(void)
 // {
 //     printf("meow\n");
