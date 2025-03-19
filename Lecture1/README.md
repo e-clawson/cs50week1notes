@@ -90,3 +90,7 @@ Operators:
 - -- = decrementor 
 
 ! - bang operator - inverts the concept - Not equal in this case 
+
+Important tenets of coding: 
+- keep it simple - as simple as possible 
+- don't repeat yourself 
