@@ -67,10 +67,10 @@ More CLI commands:
 - rmdir - remove directory 
 
 Types of info: 
-- string - %s - text - phrase/sentence
+- string - %s - text - phrase/sentence - in c, when using a string, use double quotes
 - int - %i - integer 
 - bool - boolean (true/false)
-- char - single character - insteadof a full phrase/sentence 
+- char - single character - insteadof a full phrase/sentence - in c, when using single chars, use single quotes
 - double/float - real numbers - something equivalent of fractions/decimal points 
 - long - integers but longer integers 
 
