@@ -65,3 +65,28 @@ More CLI commands:
 - mv - move - move a file to somewhere else or rename it 
 - rm - remove 
 - rmdir - remove directory 
+
+Types of info: 
+- string - %s - text - phrase/sentence
+- int - %i - integer 
+- bool - boolean (true/false)
+- char - single character - insteadof a full phrase/sentence 
+- double/float - real numbers - something equivalent of fractions/decimal points 
+- long - integers but longer integers 
+
+Conditionals 
+- proverbial forks in the road 
+- if x is true, do y, else do z 
+
+Operators: 
+- = - the assignment operator - will assign a value to a variable 
+- <
+- <= 
+- ">"
+- ">="
+- == 
+- != 
+- += or ++ - incrementor 
+- -- = decrementor 
+
+! - bang operator - inverts the concept - Not equal in this case 
