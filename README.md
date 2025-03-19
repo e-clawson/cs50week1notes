@@ -52,4 +52,8 @@ this linse #include <stdio.h> helps declare this as a header file - any file tha
     - documentation for c - manual (man) pages - older more pedantic - can use https://manual.cs50.io/ for a more user-friendly and class-applicable version of the documentation 
         - includes more header files and an explanation of what functions are included in each (hundreds of functions already in C)
 
-get_string 
+- get_string 
+
+- %s - the way to join things in c - sort of saying give me something else - in this case, put another string here - sort of like leaving a placeholder in the code where values will go later
+- printf() can take multiple inputs separated by a comma 
+
