@@ -3,17 +3,29 @@
 
 #include <stdio.h>
 
-//better option: 
+//best option? better convention to increment than decrement? 
 
 int main(void)
 {
-    int i = 3;
-    while (i > 0)
+    int i = 0;
+    while (i < 3)
     {
         printf("meow\n");
-        i--;
+        i++;
     }
 }
+
+//better option: 
+
+// int main(void)
+// {
+//     int i = 3;
+//     while (i > 0)
+//     {
+//         printf("meow\n");
+//         i--;
+//     }
+// }
 
 
 // int main(void)
