@@ -57,3 +57,11 @@ this linse #include <stdio.h> helps declare this as a header file - any file tha
 - %s - the way to join things in c - sort of saying give me something else - in this case, put another string here - sort of like leaving a placeholder in the code where values will go later
 - printf() can take multiple inputs separated by a comma 
 
+More CLI commands: 
+- cd - change directory (similar to double clicking in a gui)
+- cp - copy -make a copy of a file or folder 
+- ls - list - shows files in your current folder in the directory 
+- mkdir - make directory - makes a new file in your current folder in the directory 
+- mv - move - move a file to somewhere else or rename it 
+- rm - remove 
+- rmdir - remove directory 
