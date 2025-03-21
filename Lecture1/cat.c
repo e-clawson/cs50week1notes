@@ -3,23 +3,47 @@
 //include <cs50.h>
 #include <stdio.h>
 
-//e - creating a meow function and plugging it in 
+//f - abstraction - moving all the for loop into the meow function so you can change the interval to any number
 
-void meow(void)
+void meow(int n)
 
 int main(void)
 {
-    for (int i = 0; i < 3; i++)
+    int n;
+    do
     {
-        meow();
-        i++;
+        n = get_int("Number: ");
     }
+    while (n < 1);
+    meow(n);
 }
 
-void meow(void)
+void meow(int n)
 {
-    print("meow\n")
+    for (int i = 0; i < n; i++)
+    {
+        print("meow\n");
+    }
+    
 }
+
+//e - creating a meow function and plugging it in 
+
+// void meow(void)
+
+// int main(void)
+// {
+//     for (int i = 0; i < 3; i++)
+//     {
+//         meow();
+//         i++;
+//     }
+// }
+
+// void meow(void)
+// {
+//     print("meow\n");
+// }
 
 //d for loop - best best option: 
 
